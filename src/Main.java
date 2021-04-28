@@ -13,7 +13,7 @@ public class Main {
 		
 		Courses courses3 = new Courses();
 		courses3.number = 3;
-		courses3.name = "Programlamaya Giriþ için Temel Kurs";
+		courses3.name = "Programlamaya Giris için Temel Kurs";
 		courses3.completed = "%100";
 		courses3.educator = "Engin Demirog";
 		
@@ -39,7 +39,7 @@ public class Main {
 		
 		Category[] categories = {category1,category2};
 		
-		System.out.println("KATEGORÝLER");
+		System.out.println("KATEGORILER");
 		
 		for(Category category : categories) {
 			System.out.println("Kacinci Kategori : " + category.number);
