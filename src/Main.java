@@ -3,19 +3,19 @@
 public class Main {
 
 	public static void main(String[] args) {
-		Courses courses1 = new Courses(1, "C# + Angular" , "%0", "Engin DEMİROĞ");
+		Courses courses1 = new Courses(1, "C# + Angular" , "%0", "Engin Demirog");
 		
 		Courses courses2 = new Courses();
 		courses2.number = 2;
 		courses2.name = "Java + React";
 		courses2.completed = "%36";
-		courses2.educator = "Engin DEMİROĞ";
+		courses2.educator = "Engin Demirog";
 		
 		Courses courses3 = new Courses();
 		courses3.number = 3;
-		courses3.name = "Programlamaya Giriş için Temel Kurs";
+		courses3.name = "Programlamaya GiriÃ¾ iÃ§in Temel Kurs";
 		courses3.completed = "%100";
-		courses3.educator = "Engin DEMİROĞ";
+		courses3.educator = "Engin Demirog";
 		
 		
 		Courses[] coursess = {courses1,courses2,courses3};
@@ -24,14 +24,14 @@ public class Main {
 		
 		
 		for(Courses courses : coursess) {
-			System.out.println("Kaçıncı Kurs : " +courses.number);
-			System.out.println("Kurs Adı : " + courses.name);
-			System.out.println("Tamamlama Yüzdesi : " + courses.completed);
-			System.out.println("Eğitmen Hoca : "+ courses.educator);
+			System.out.println("Kacinci Kurs : " +courses.number);
+			System.out.println("Kurs Adi : " + courses.name);
+			System.out.println("Tamamlama YÃ¼zdesi : " + courses.completed);
+			System.out.println("Egitmen Hoca : "+ courses.educator);
 			System.err.println("<><><><><><><><><><><><><>");
 			
 		}
-		Category category1 = new Category(1, "Tümü");
+		Category category1 = new Category(1, "TÃ¼mÃ¼");
 		
 		Category category2 = new Category();
 		category2.name = "Programlama";
@@ -39,26 +39,26 @@ public class Main {
 		
 		Category[] categories = {category1,category2};
 		
-		System.out.println("KATEGORİLER");
+		System.out.println("KATEGORÃLER");
 		
 		for(Category category : categories) {
-			System.out.println("Kaçıncı Kategori : " + category.number);
+			System.out.println("Kacinci Kategori : " + category.number);
 			System.out.println("Hangi Kategori : " + category.name);
 			System.err.println("--------------------------");
 		}
 		
-		Educator educator1 = new Educator(1, "Tümü");
+		Educator educator1 = new Educator(1, "TÃ¼mÃ¼");
 		
 		Educator educator2 = new Educator();
-		educator2.name = "Engin DEMİROĞ";
+		educator2.name = "Engin Demirog";
 		educator2.number = 2;
 		
 		Educator[] educators = {educator1,educator2};
-		System.err.println("EĞİTMENLER");
+		System.err.println("EGITMENLER");
 		
 		for(Educator educator : educators) {
-			System.out.println("Kaçıncı Eğitmen : " + educator.number);
-			System.out.println("Hangi Eğitmen : " + educator.name);
+			System.out.println("Kacinci Egitmen : " + educator.number);
+			System.out.println("Hangi Egitmen : " + educator.name);
 			System.err.println("-------------------------");
 			
 		}
